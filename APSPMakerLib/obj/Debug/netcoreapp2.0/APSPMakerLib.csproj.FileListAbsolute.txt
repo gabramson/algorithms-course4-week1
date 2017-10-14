@@ -1,0 +1,9 @@
+D:\Projects\C#\Coursera\algorithms-course4\week1\APSPMakerLib\bin\Debug\netcoreapp2.0\APSPMakerLib.deps.json
+D:\Projects\C#\Coursera\algorithms-course4\week1\APSPMakerLib\bin\Debug\netcoreapp2.0\APSPMakerLib.dll
+D:\Projects\C#\Coursera\algorithms-course4\week1\APSPMakerLib\bin\Debug\netcoreapp2.0\APSPMakerLib.pdb
+D:\Projects\C#\Coursera\algorithms-course4\week1\APSPMakerLib\obj\Debug\netcoreapp2.0\APSPMakerLib.csprojResolveAssemblyReference.cache
+D:\Projects\C#\Coursera\algorithms-course4\week1\APSPMakerLib\obj\Debug\netcoreapp2.0\APSPMakerLib.csproj.CoreCompileInputs.cache
+D:\Projects\C#\Coursera\algorithms-course4\week1\APSPMakerLib\obj\Debug\netcoreapp2.0\APSPMakerLib.AssemblyInfoInputs.cache
+D:\Projects\C#\Coursera\algorithms-course4\week1\APSPMakerLib\obj\Debug\netcoreapp2.0\APSPMakerLib.AssemblyInfo.cs
+D:\Projects\C#\Coursera\algorithms-course4\week1\APSPMakerLib\obj\Debug\netcoreapp2.0\APSPMakerLib.dll
+D:\Projects\C#\Coursera\algorithms-course4\week1\APSPMakerLib\obj\Debug\netcoreapp2.0\APSPMakerLib.pdb
