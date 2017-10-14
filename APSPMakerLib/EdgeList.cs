@@ -10,38 +10,17 @@ namespace APSPMakerLib
 
         public void Add(int start, int end, int length)
         {
-            if (start < end)
-            {
-                edgeList.Add((start, end), new Edge(start, end, length));
-            }
-            else
-            {
-                edgeList.Add((end, start), new Edge(end, start, length));
-            }
+            edgeList.Add((start, end), new Edge(start, end, length));
         }
 
         public bool Contains(int start, int end)
         {
-            if (start < end)
-            {
-                return edgeList.ContainsKey((start, end));
-            }
-            else
-            {
-                return edgeList.ContainsKey((end, start));
-            }
+            return edgeList.ContainsKey((start, end));
         }
 
         public int GetLength(int start, int end)
         {
-            if (start < end)
-            {
-                return edgeList[(start, end)].length;
-            }
-            else
-            {
-                return edgeList[(end, start)].length;
-            }
+            return edgeList[(start, end)].length;
         }
     }
 }

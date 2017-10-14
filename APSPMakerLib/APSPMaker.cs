@@ -12,7 +12,15 @@ namespace APSPMakerLib
 
         public void AddEdge(int start, int finish, int length)
         {
-
+            if (!vertexList.ContainsVertex(start))
+            {
+                vertexList.Add(start);
+            }
+            if (!vertexList.ContainsVertex(end))
+            {
+                vertexList.Add(end);
+            }
+            vertexList.AddNeighbor(start, end);
         }
 
         public void Execute()
