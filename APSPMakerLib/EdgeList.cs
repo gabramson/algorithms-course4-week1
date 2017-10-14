@@ -2,21 +2,21 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MSTlib
+namespace APSPMakerLib
 {
     internal class EdgeList
     {
         private Dictionary<(int, int), Edge> edgeList = new Dictionary<(int, int), Edge>();
 
-        public void Add(int start, int end, int cost)
+        public void Add(int start, int end, int length)
         {
             if (start < end)
             {
-                edgeList.Add((start, end), new Edge(start, end, cost));
+                edgeList.Add((start, end), new Edge(start, end, length));
             }
             else
             {
-                edgeList.Add((end, start), new Edge(end, start, cost));
+                edgeList.Add((end, start), new Edge(end, start, length));
             }
         }
 
@@ -32,15 +32,15 @@ namespace MSTlib
             }
         }
 
-        public int GetCost(int start, int end)
+        public int GetLength(int start, int end)
         {
             if (start < end)
             {
-                return edgeList[(start, end)].cost;
+                return edgeList[(start, end)].length;
             }
             else
             {
-                return edgeList[(end, start)].cost;
+                return edgeList[(end, start)].length;
             }
         }
     }

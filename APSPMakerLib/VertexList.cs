@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MSTlib
+namespace APSPMakerLib
 {
     internal class VertexList
     {
